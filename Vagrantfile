@@ -22,6 +22,8 @@ Vagrant.configure(2) do |config|
   #config.sshfs.mount_on_guest = true
   #config.sshfs.host_addr = '192.168.56.1'
 
+  # Reduce acceptable boot timeout, so that errors appear faster
+  config.vm.boot_timeout=30
 
   config.vm.provider "virtualbox" do |v|
       # Choose the machine to run
