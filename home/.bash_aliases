@@ -1,5 +1,6 @@
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=/src
+export VIRTUALENVWRAPPER_HOOK_DIR=/src/vagrant/home/virtualenvhooks
 source /usr/local/bin/virtualenvwrapper.sh
 
 # Project Work
