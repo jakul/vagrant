@@ -16,7 +16,9 @@ Vagrant.configure(2) do |config|
   #  :group => "craig",
   #  :mount_options => ["dir_mode=0777", "file_mode=0666"]
   #config.vm.synced_folder "../", "/src-rsync", type: "rsync",
-  #  rsync__exclude: [".git/", ".tox/", ".*/"]
+  #  rsync__exclude: [".git/", ".tox/", ".*/", "__pycache__",
+  #  "C:/dev/banana/rest_framework"], owner: "craig",
+  #   group: "craig"
   #config.sshfs.paths = { "/src-sshfs" => "../" }
   #config.sshfs.paths = { "../" => "/src-sshfs1/" }
   #config.sshfs.mount_on_guest = true
