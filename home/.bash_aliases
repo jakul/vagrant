@@ -10,6 +10,7 @@ alias wdr="cd /src/django-rest-framework && workon drf"
 alias wdr34="cd /src/django-rest-framework && workon drf34"
 alias wdt="cd /src/django-transifex && workon dtf"
 alias wpt="cd /src/python-transifex && workon ptr"
+alias wfo="cd /src/forecaster && workon forecaster"
 
 # Restart networking (useful when changing wifi with vagrant turned on)
 alias renet="sudo ifdown eth0 && sudo ifup eth0"
