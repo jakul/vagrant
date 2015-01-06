@@ -19,3 +19,6 @@ alias renet="sudo ifdown eth0 && sudo ifup eth0"
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+# Commands
+alias ipy="ipython"
